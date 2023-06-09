@@ -1,0 +1,31 @@
+.container{
+    background-color: white;
+    border-radius: 10px;
+    max-width: 80vw;
+    max-height: 90vw;
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.logo{
+    margin-top: 60px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    transform: translateZ(0);
+    
+    transition: transform 0.15s ease-out;
+    
+}
+.logo:hover{
+    transform: scale(1.20) translate(0px, -10px) rotate(-20deg);
+}
+.img{
+    max-width: 500px;
+    max-height: 1000px;
+    border-radius: 20px;
+}
+

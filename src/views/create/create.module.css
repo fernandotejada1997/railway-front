@@ -1,0 +1,109 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 30px;
+    width: 85vw;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    grid-gap: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 22px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fdc630;
+    margin: 0 auto;
+    width: 85%;
+    border-radius: 15px;
+}
+
+.measure {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #25bce2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f0f8ff;
+    transition: 0.3s;
+}
+
+.button:hover {
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: #f0f8ff;
+    border: 3px solid #25bce2;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #25bce2;
+    transition: 0.3s;
+}
+
+.error {
+    color: rgb(255, 74, 74);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform 0.15s ease-out;
+}
+
+.logo:hover {
+    transform: scale(1.2) translate(0px, -10px) rotate(-20deg);
+}
+
+.checkboxList {
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.checkboxList li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #d6a00c 2px;
+    border-radius: 8px;
+    width: 31%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 5px;
+}
+.errorweight{
+    display: grid;
+}

@@ -1,0 +1,29 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;  
+    max-width: 400px;
+    background-image: url('./backgroundcard.png');
+    }
+
+.cardcontainer:hover{
+    transform: scale(1.05)
+}
+.image{
+    /* width: 300px;
+    height: 300px; */
+    max-width: 90%;
+    border-radius: 5px;
+}
+.Link{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}

@@ -1,0 +1,24 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hometitle{
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: 76px;
+
+}
+.filtros{
+    background-color: rgb(255, 183, 50);
+    display: flex;
+    flex-direction:row;
+    border-radius: 10px;
+    height: 100px;
+    width: 600px;
+    justify-content: space-around;
+    background-image: url('../components/card/backgroundcard.png');
+    
+}

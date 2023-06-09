@@ -1,0 +1,40 @@
+.searchBox{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    background-color: #2EC4B6;
+    padding: 15px;
+    width: 85vw;
+    line-height: 10px;
+    margin-bottom: 20px;
+    grid-gap:5vw;
+    border-radius: 10px;
+}
+.title{
+color:white;
+font-size: 50px;
+margin-left: 100px;
+line-height:40px
+}
+.search{
+border: transparent;
+}
+.button{
+    margin-right: 50px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    cursor: pointer;
+    transform: translateZ(0);
+    
+    transition: transform 0.15s ease-out;
+    
+}
+.logo:hover{
+    transform: scale(1.20) translate(0px, -10px) rotate(-20deg);
+}
+
+
+
