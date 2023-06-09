@@ -3,7 +3,7 @@ import axios from "axios";
 
 const getDogs = () =>{
     return async function (dispatch){
-        const response = await axios.get("dogs/");
+        const response = await axios.get("https://back-lxoj.onrender.com/dogs");
         const apiData = response.data;
         dispatch({
             type: "GET_DOGS",
@@ -14,7 +14,7 @@ const getDogs = () =>{
 
 const getTemperaments = () =>{
 return async function (dispatch){
-    const response = await axios.get("temperaments/");
+    const response = await axios.get("https://back-lxoj.onrender.com/temperaments/");
     const apiTemperaments = response.data;
     dispatch({
         type: "GET_TEMPERAMENTS",
